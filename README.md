@@ -10,6 +10,6 @@ NovelNSeq is the first computational tool specifically designed to identify the 
        style="border: 1px solid #eee; border-radius: 5px;"/>
 </div>
 <p align="center">
-  <em>Figure 1. Schematic of the NovelNSeq algorithm for identifying NEPs in MS data.</em>
+  Figure 1. Schematic of the NovelNSeq algorithm for identifying NEPs in MS data.
 </p>
 

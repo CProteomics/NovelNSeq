@@ -13,3 +13,20 @@ NovelNSeq is the first computational tool specifically designed to identify the 
   Figure 1. Schematic of the NovelNSeq algorithm for identifying NEPs in MS data.
 </p>
 
+# System Requirements
+.NET Runtime: .NET 6.0 (for C# components). Memory: Minimum 500GB RAM. Operating Systems: Windows 10/11.
+
+# Usage
+## 1. Input Preparation
+Prepare the following input files:
+- **MS/MS spectra**: Place `.mgf` files in `./NovelNSeq/Release/net6.0/Input/`
+- **Genome data**:
+  - Chromosome FASTA files in `./NovelNSeq/Release/net6.0/chrgff/chr/`
+  - Annotation file as `./NovelNSeq/Release/net6.0/chrgff/human_gff.gff`
+
+*Note: Due to file size limitations, the provided genome data files in the repository are incomplete. For actual analysis, please download complete reference files from NCBI.*
+## 2. Run NovelNSeq
+Execute the program by double-clicking `NovelNSeq.exe`. After completion, results will be generated in: `.\NovelNSeq\Release\net6.0\Output\`
+
+## 3. Output Interpretation
+"chromosome|gene name|protein ID|strand orientation|5' end position of the first/second CDS on the positive strand|translation initiation shift"

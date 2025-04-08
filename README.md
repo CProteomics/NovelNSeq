@@ -29,4 +29,9 @@ Prepare the following input files:
 Execute the program by double-clicking `NovelNSeq.exe`. After completion, results will be generated in: `.\NovelNSeq\Release\net6.0\Output\`
 
 ## 3. Output Interpretation
-"chromosome|gene name|protein ID|strand orientation|5' end position of the first/second CDS on the positive strand|translation initiation shift"
+Each line represents a NovelNSeq identification result with the following comma-separated format: MS/MS_spectrum_name, NEP_sequence, PSM_score, genomic_origin.
+The genomic_origin field contains detailed mapping information in pipe-delimited format.
+
+# Citing NovelNSeq
+# Support
+For questions or bug reports, please contact: hecuitongpro@163.com.

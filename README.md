@@ -26,7 +26,7 @@ Prepare the following input files:
 
 *Note: Due to file size limitations, the provided genome data files in the repository are incomplete. For actual analysis, please download complete reference files from NCBI.*
 ## 2. Run NovelNSeq
-Execute the program by double-clicking `NovelNSeq.exe`. After completion, results will be generated in: `.\NovelNSeq\Release\net6.0\Output\`
+Execute the program by double-clicking `NovelNSeq.exe`. After completion, results will be generated in: `./NovelNSeq/Release/net6.0/Output/`
 
 ## 3. Output Interpretation
 Each line represents a NovelNSeq identification result with the following comma-separated format: MS/MS_spectrum_name, NEP_sequence, PSM_score, genomic_origin.

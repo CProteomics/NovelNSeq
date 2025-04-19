@@ -14,7 +14,7 @@ NovelNSeq is the first computational tool specifically designed to identify the 
 </p>
 
 # System Requirements
-.NET Runtime: .NET 6.0 (for C# components). Memory: Minimum 500GB RAM. Operating Systems: Windows 10/11.
+.NET Runtime: .NET 6.0 (for C# components). Memory: Minimum 100GB RAM. Operating Systems: Windows 10/11.
 
 # Usage
 ## 1. Input Preparation

@@ -33,7 +33,7 @@ Each line represents a NovelNSeq identification result with the following comma-
 
 The "genomic_origin" section contains information about the encoding mechanisms of NEPs in the genome. For a possible encoding mechanism, it is represented in the following example format: "NC_012920.1|COX1|YP_003024028.1|+|5904|0|MFADRWLFSTNHK|APTGY|GCCCCTACGGGCTAC|3428|3442". 
 
-The specific meanings are: Chromosome | Gene name | Protein ID | Strand (+/-) | Position of the first base of the 5' end of the first (or second) annotated CDS on the positive strand | Shift (the position from which the annotated CDS starts encoding the complete amino acid sequence) | Theoretically cleaved N-terminal sequence encoded by the annotated CDS | Extended novel sequence | Nucleotide sequence of the novel CDS encoding the NEP | Start position of the novel CDS encoding the NEP on the chromosome | End position of the novel CDS encoding the NEP on the chromosome. 
+The specific meanings are: Chromosome | Gene name | Protein ID | Strand (+/-) | Position of the first base of the 5' end of the first (or second) annotated CDS on the positive strand | Shift (the position from which the annotated CDS starts encoding the complete amino acid sequence) | Theoretically cleaved N-terminal sequence encoded by the annotated CDS | Extended novel sequence | Nucleotide sequence of the novel CDS encoding the NEP | Start position of the novel CDS on the chromosome | End position of the novel CDS on the chromosome. 
 
 If an NEP has multiple possible encoding mechanisms in the genome, the information for each encoding mechanism is separated by semicolons.
 
